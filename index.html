@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Instruments Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="images/logo.png" alt="Musical Instruments Logo">
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#products" class="nav-link">Products</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Welcome to Our Musical Instruments Store</h1>
+        <p>Discover a wide range of musical instruments that suit your style and needs.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="images/types-of-guitar.avif" alt="Guitar">
+                <h3>Guitar</h3>
+                <p>Price: $299</p>
+            </div>
+            <div class="product">
+                <img src="images/yamaha.jpg" alt="Piano">
+                <h3>Piano</h3>
+                <p>Price: $799</p>
+            </div>
+            <div class="product">
+                <img src="images/drums.jpg" alt="Drums">
+                <h3>Drums</h3>
+                <p>Price: $499</p>
+            </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/a8lZQnQZg_A?si=H20t38locZEl3HHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Subscribe">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Musical Instruments Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
